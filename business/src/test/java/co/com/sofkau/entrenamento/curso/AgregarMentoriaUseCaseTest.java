@@ -67,6 +67,8 @@ class AgregarMentoriaUseCaseTest {
                 descripcion
         );
         event.setAggregateRootId("xxxxx");
+
+
         return List.of(event);
     }
 
